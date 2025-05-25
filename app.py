@@ -185,7 +185,7 @@ if tab_choice == "🔥 Popular Games":
     total_games = filtered_df.shape[0]
     total_pages = max(1, math.ceil(total_games / ROWS_PER_PAGE))
 
-    st.markdown("### 🎨 Popular Games")
+    st.markdown("### 🔥 Popular Games")
 
     st.markdown("Top IGDB games by users rating and popularity.")
 
