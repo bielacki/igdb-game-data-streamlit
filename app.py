@@ -115,10 +115,9 @@ total_games_count = get_games_number(full_df)
 ratings_count = get_ratings_count(full_df)
 
 # --- SIDEBAR HEADER ---
+st.logo("igdb_logo.svg")
 st.sidebar.markdown("""
     <div style='margin-bottom: 10px;'>
-        <img src='./images/igdb_logo.svg' 
-             style='width: 40px; margin-bottom: 10px; border-radius: 8px;'>
         <div style='font-size: 1.5em; font-weight: 600; color: #9147ff; margin-bottom: 5px;'>
             IGDB Game stats
         </div>
